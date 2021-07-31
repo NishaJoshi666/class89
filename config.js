@@ -2,14 +2,17 @@ import firebase from 'firebase';
 require('@firebase/firestore')
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAVYmsdP4MtvR9S05pbXUzdjrpgkkQatYQ",
-  authDomain: "barter-system-app-28474.firebaseapp.com",
-  databaseURL: "https://barter-system-app-28474.firebaseio.com",
-  projectId: "barter-system-app-28474",
-  storageBucket: "barter-system-app-28474.appspot.com",
-  messagingSenderId: "1077036705858",
-  appId: "1:1077036705858:web:a902772923afcbe567e5db"
-};
+    apiKey: "AIzaSyASyOjOtJla-X-b3io2eLoaUc_bIRFSIIc",
+    authDomain: "book-santa-app.firebaseapp.com",
+    databaseURL: "https://book-santa-app.firebaseio.com",
+    projectId: "book-santa-app",
+    storageBucket: "book-santa-app.appspot.com",
+    messagingSenderId: "69634746716",
+    appId: "1:69634746716:web:6fbbfc110fb4475365f999",
+    measurementId: "G-DLB7XC0JPL"
+  };
+
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
